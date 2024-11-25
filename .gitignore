@@ -1,0 +1,73 @@
+# Unity 관련 파일들
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Pp]rofileData/
+[Uu]ser[Ss]ettings/
+
+# Crashlytics
+[Uu]ser[Ss]ettings/Crashlytics/
+
+# Visual Studio / MonoDevelop / Rider
+.vscode/
+.idea/
+*.suo
+*.unityproj
+*.csproj
+*.pidb
+*.user
+*.booproj
+*.svd
+*.sln
+*.sln*
+*.csproj*
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# .DS_Store 파일 및 macOS 관련 파일들
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight 속성
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# macOS 디스크 관련 항목들
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# 빌드 관련 파일들
+*.apk
+*.aab
+*.unitypackage
+
+# Unity Cloud Build generated files
+*.ucc
+
+# Logs and local files
+*.log
+*.stacktrace
+
+# VS Code Workspace
+*.code-workspace
+
+# 기타
+.DS_Store
+Thumbs.db
