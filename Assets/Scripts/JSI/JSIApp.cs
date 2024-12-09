@@ -1,4 +1,4 @@
-using System;
+using JSI.AppObject;
 using UnityEngine;
 using X;
 
@@ -43,6 +43,10 @@ namespace JSI
         {
             this.mPerspCameraPerson = new JSIPerspCameraPerson();
             this.mGrid = new JSIGrid();
+            
+            // new JSIAppRect3D("TestReact3D", 1f, 2f, new Color(0.5f, 0f, 0f, 0.5f));
+            // new JSIAppCircle3D("TestCircle3D", 1f, new Color(0f, 0.5f, 0f, 0.5f));
+            new JSIStandingCard("TestStandingCard", 1f, 2f, new Vector3(0f, 1f, 0f), Quaternion.identity, null);
             
             this.mScenarioMgr = new JSIScenarioMgr(this);
             this.mPenMarkMgr = new JSIPenMarkMgr();
